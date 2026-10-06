@@ -1,0 +1,2 @@
+-keepclassmembers class com.glasslist.app.data.** { *; }
+-keep class kotlinx.serialization.** { *; }
