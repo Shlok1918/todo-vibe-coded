@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import android.Manifest
 import android.os.Build
@@ -20,8 +20,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)

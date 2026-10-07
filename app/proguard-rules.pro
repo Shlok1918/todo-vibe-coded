@@ -1,2 +1,2 @@
--keepclassmembers class com.glasslist.app.data.** { *; }
+-keepclassmembers class com.shlok.taskcheck.data.** { *; }
 -keep class kotlinx.serialization.** { *; }

@@ -1,13 +1,13 @@
-package com.glasslist.app.ui
+package com.shlok.taskcheck.ui
 
 import android.net.Uri
 import androidx.datastore.preferences.core.Preferences
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.glasslist.app.GlasslistApp
-import com.glasslist.app.data.*
-import com.glasslist.app.domain.NlParser
-import com.glasslist.app.notify.Notifier
+import com.shlok.taskcheck.GlasslistApp
+import com.shlok.taskcheck.data.*
+import com.shlok.taskcheck.domain.NlParser
+import com.shlok.taskcheck.notify.Notifier
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay

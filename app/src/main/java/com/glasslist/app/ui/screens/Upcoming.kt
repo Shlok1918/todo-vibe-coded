@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Upcoming
@@ -7,10 +7,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.padding
-import com.glasslist.app.data.Task
-import com.glasslist.app.domain.D
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.domain.D
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
 import java.time.format.DateTimeFormatter
 
 @Composable

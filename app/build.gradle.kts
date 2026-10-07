@@ -7,10 +7,10 @@ plugins {
 }
 
 android {
-    namespace = "com.glasslist.app"
+    namespace = "com.shlok.taskcheck"
     compileSdk = 35
     defaultConfig {
-        applicationId = "com.glasslist.app"
+        applicationId = "com.shlok.taskcheck"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

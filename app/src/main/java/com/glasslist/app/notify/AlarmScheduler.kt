@@ -1,13 +1,13 @@
-package com.glasslist.app.notify
+package com.shlok.taskcheck.notify
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import com.glasslist.app.data.Settings
-import com.glasslist.app.data.Task
-import com.glasslist.app.domain.D
+import com.shlok.taskcheck.data.Settings
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.domain.D
 import java.time.LocalDate
 import java.time.LocalTime
 

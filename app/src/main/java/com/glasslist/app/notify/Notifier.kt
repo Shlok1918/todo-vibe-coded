@@ -1,4 +1,4 @@
-package com.glasslist.app.notify
+package com.shlok.taskcheck.notify
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -8,21 +8,21 @@ import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.glasslist.app.MainActivity
-import com.glasslist.app.R
-import com.glasslist.app.data.Task
-import com.glasslist.app.domain.D
+import com.shlok.taskcheck.MainActivity
+import com.shlok.taskcheck.R
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.domain.D
 
 object Notifier {
     const val CH_REMINDER = "reminders"
     const val CH_DIGEST = "digest"
     const val CH_FOCUS = "focus"
 
-    const val ACT_REMIND = "com.glasslist.app.REMIND"
-    const val ACT_DONE = "com.glasslist.app.DONE"
-    const val ACT_SNOOZE = "com.glasslist.app.SNOOZE"
-    const val ACT_DIGEST = "com.glasslist.app.DIGEST"
-    const val ACT_FOCUS = "com.glasslist.app.FOCUS"
+    const val ACT_REMIND = "com.shlok.taskcheck.REMIND"
+    const val ACT_DONE = "com.shlok.taskcheck.DONE"
+    const val ACT_SNOOZE = "com.shlok.taskcheck.SNOOZE"
+    const val ACT_DIGEST = "com.shlok.taskcheck.DIGEST"
+    const val ACT_FOCUS = "com.shlok.taskcheck.FOCUS"
     const val X_TASK = "taskId"
     const val X_REM = "reminderId"
     const val X_KIND = "kind"

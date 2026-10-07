@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.components
+package com.shlok.taskcheck.ui.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -17,10 +17,10 @@ import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.data.Task
-import com.glasslist.app.data.TaskList
-import com.glasslist.app.domain.D
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.data.TaskList
+import com.shlok.taskcheck.domain.D
+import com.shlok.taskcheck.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable

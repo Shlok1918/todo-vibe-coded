@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import android.Manifest
 import android.content.Intent
@@ -25,13 +25,13 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.datastore.preferences.core.Preferences
-import com.glasslist.app.data.SK
-import com.glasslist.app.data.Settings
-import com.glasslist.app.ui.MainViewModel
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
-import com.glasslist.app.ui.theme.Wallpapers
-import com.glasslist.app.domain.D
+import com.shlok.taskcheck.data.SK
+import com.shlok.taskcheck.data.Settings
+import com.shlok.taskcheck.ui.MainViewModel
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
+import com.shlok.taskcheck.ui.theme.Wallpapers
+import com.shlok.taskcheck.domain.D
 import java.time.LocalTime
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,10 +1,10 @@
-package com.glasslist.app.notify
+package com.shlok.taskcheck.notify
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.glasslist.app.container
-import com.glasslist.app.domain.D
+import com.shlok.taskcheck.container
+import com.shlok.taskcheck.domain.D
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

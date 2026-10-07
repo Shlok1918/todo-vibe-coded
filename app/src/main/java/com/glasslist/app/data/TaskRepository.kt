@@ -1,7 +1,7 @@
-package com.glasslist.app.data
+package com.shlok.taskcheck.data
 
-import com.glasslist.app.domain.Recurrence
-import com.glasslist.app.notify.AlarmScheduler
+import com.shlok.taskcheck.domain.Recurrence
+import com.shlok.taskcheck.notify.AlarmScheduler
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 

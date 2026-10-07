@@ -1,4 +1,4 @@
-package com.glasslist.app.ui
+package com.shlok.taskcheck.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.*
@@ -18,10 +18,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.glasslist.app.data.Settings
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.screens.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.data.Settings
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.screens.*
+import com.shlok.taskcheck.ui.theme.*
 
 private enum class Tab(val label: String, val icon: ImageVector) {
     Today("Today", Icons.Rounded.Today), Upcoming("Upcoming", Icons.Rounded.Upcoming), Calendar("Calendar", Icons.Rounded.CalendarMonth),
@@ -84,7 +84,7 @@ private fun Main(vm: MainViewModel, s: Settings, openTaskId: String?, onOpenHand
         Column(Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(bottom = 12.dp), horizontalAlignment = Alignment.End) {
             Box(Modifier.padding(end = 20.dp, bottom = 12.dp).size(58.dp).clip(RoundedCornerShape(20.dp))
                 .background(androidx.compose.ui.graphics.Brush.linearGradient(listOf(g.accent, g.accent.copy(alpha = .7f))))
-                .bounceClick { newDate = if (tab == Tab.Today) com.glasslist.app.domain.D.today().toString() else null; sheetId = "new" }, Alignment.Center) {
+                .bounceClick { newDate = if (tab == Tab.Today) com.shlok.taskcheck.domain.D.today().toString() else null; sheetId = "new" }, Alignment.Center) {
                 Icon(Icons.Rounded.Add, "New task", tint = Color.White, modifier = Modifier.size(30.dp))
             }
             Row(Modifier.align(Alignment.CenterHorizontally).glass(RoundedCornerShape(32.dp), strong = true).padding(6.dp), horizontalArrangement = Arrangement.spacedBy(2.dp)) {

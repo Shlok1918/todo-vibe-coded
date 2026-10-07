@@ -1,4 +1,4 @@
-package com.glasslist.app
+package com.shlok.taskcheck
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,9 +11,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.glasslist.app.notify.Notifier
-import com.glasslist.app.ui.AppRoot
-import com.glasslist.app.ui.MainViewModel
+import com.shlok.taskcheck.notify.Notifier
+import com.shlok.taskcheck.ui.AppRoot
+import com.shlok.taskcheck.ui.MainViewModel
 
 class MainActivity : ComponentActivity() {
     private var openTaskId by mutableStateOf<String?>(null)

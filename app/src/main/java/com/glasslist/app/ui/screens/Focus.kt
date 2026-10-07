@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
@@ -18,9 +18,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.glasslist.app.ui.FocusState
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.ui.FocusState
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
 
 @Composable
 fun FocusScreen(f: FocusState, taskTitle: String?, onToggle: () -> Unit, onReset: () -> Unit, onDoneTask: (() -> Unit)?, onClose: () -> Unit) {

@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
@@ -16,10 +16,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.data.Task
-import com.glasslist.app.domain.D
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.domain.D
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.YearMonth

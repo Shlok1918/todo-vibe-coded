@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.components
+package com.shlok.taskcheck.ui.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.*
@@ -25,7 +25,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.ui.theme.*
 import kotlin.math.PI
 import kotlin.math.sin
 

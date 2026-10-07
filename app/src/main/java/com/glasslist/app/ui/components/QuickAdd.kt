@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.components
+package com.shlok.taskcheck.ui.components
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
@@ -16,9 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.domain.D
-import com.glasslist.app.domain.NlParser
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.domain.D
+import com.shlok.taskcheck.domain.NlParser
+import com.shlok.taskcheck.ui.theme.*
 
 /** Type "Call mom tomorrow 6pm !high #family" — chips show what was understood, live. */
 @OptIn(ExperimentalLayoutApi::class)

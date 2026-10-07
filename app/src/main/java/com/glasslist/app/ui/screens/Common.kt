@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
@@ -9,11 +9,11 @@ import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.data.Task
-import com.glasslist.app.data.TaskList
-import com.glasslist.app.ui.components.SectionLabel
-import com.glasslist.app.ui.components.TaskRow
-import com.glasslist.app.ui.theme.Danger
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.data.TaskList
+import com.shlok.taskcheck.ui.components.SectionLabel
+import com.shlok.taskcheck.ui.components.TaskRow
+import com.shlok.taskcheck.ui.theme.Danger
 
 /** Everything a screen needs to render and act on tasks. */
 class TaskCtx(
@@ -24,7 +24,7 @@ class TaskCtx(
 fun LazyListScope.taskSection(key: String, title: String?, tasks: List<Task>, ctx: TaskCtx, danger: Boolean = false) {
     if (tasks.isEmpty()) return
     if (title != null) item(key = "h-$key") {
-        SectionLabel("$title · ${tasks.size}", color = if (danger) Danger else com.glasslist.app.ui.theme.LocalGlass.current.fg2)
+        SectionLabel("$title · ${tasks.size}", color = if (danger) Danger else com.shlok.taskcheck.ui.theme.LocalGlass.current.fg2)
     }
     items(tasks.size, key = { "$key-${tasks[it].id}" }) { i ->
         val t = tasks[i]

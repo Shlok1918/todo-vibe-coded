@@ -1,4 +1,4 @@
-package com.glasslist.app.domain
+package com.shlok.taskcheck.domain
 
 import java.time.LocalDate
 import java.time.LocalTime

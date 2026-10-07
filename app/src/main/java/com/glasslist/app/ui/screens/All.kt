@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.screens
+package com.shlok.taskcheck.ui.screens
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -18,10 +18,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
-import com.glasslist.app.data.Task
-import com.glasslist.app.data.TaskList
-import com.glasslist.app.ui.components.*
-import com.glasslist.app.ui.theme.*
+import com.shlok.taskcheck.data.Task
+import com.shlok.taskcheck.data.TaskList
+import com.shlok.taskcheck.ui.components.*
+import com.shlok.taskcheck.ui.theme.*
 
 private val EMOJIS = listOf("📁", "💼", "🏠", "🛒", "💪", "📚", "✈️", "💡", "🎯", "❤️")
 

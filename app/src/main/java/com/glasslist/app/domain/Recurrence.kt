@@ -1,6 +1,6 @@
-package com.glasslist.app.domain
+package com.shlok.taskcheck.domain
 
-import com.glasslist.app.data.Task
+import com.shlok.taskcheck.data.Task
 import java.time.LocalDate
 import java.util.UUID
 

@@ -1,13 +1,13 @@
-package com.glasslist.app
+package com.shlok.taskcheck
 
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
-import com.glasslist.app.data.AppDatabase
-import com.glasslist.app.data.SettingsStore
-import com.glasslist.app.data.TaskRepository
-import com.glasslist.app.notify.AlarmScheduler
-import com.glasslist.app.notify.Notifier
+import com.shlok.taskcheck.data.AppDatabase
+import com.shlok.taskcheck.data.SettingsStore
+import com.shlok.taskcheck.data.TaskRepository
+import com.shlok.taskcheck.notify.AlarmScheduler
+import com.shlok.taskcheck.notify.Notifier
 
 /** Manual DI container: tiny, explicit, no codegen. */
 class AppContainer(ctx: Context) {

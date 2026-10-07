@@ -1,4 +1,4 @@
-package com.glasslist.app.ui.theme
+package com.shlok.taskcheck.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -12,7 +12,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.sp
 import androidx.core.view.WindowCompat
-import com.glasslist.app.data.Settings
+import com.shlok.taskcheck.data.Settings
 
 data class Accent(val name: String, val color: Color)
 data class Wallpaper(val name: String, val canvas: Color, val orbs: List<Color>)
